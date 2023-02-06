@@ -1,3 +1,5 @@
+package Lesson2_KotlinBasics
+
 import java.awt.PageAttributes.PrintQualityType
 
 fun main (){
