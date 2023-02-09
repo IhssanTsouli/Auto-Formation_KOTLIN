@@ -1,13 +1,16 @@
 package KotlinBasics
 
 fun main(){
-    println("exercice étoiles **")
-    println("entre un nombre de linge")
+    println("entrer un nombre de linge")
     var n:Int= readLine()!!.toInt()
-    for(index in 0..n-1){
-        for(i in 1..index +1){
+    for(i in 1..n ){
+
+        for(j in 1..n - i){
+            print(" ")
+        }
+        for(k in 1.. (i * 2) -1){
             print("*")
         }
-        println("\n")
+          println()
     }
 }
