@@ -39,6 +39,9 @@ fun main() {
             4->{
                 break
             }
+            else ->{
+                println(" saisir un nombre entre 1 et 4")
+            }
         }
     }
 }
